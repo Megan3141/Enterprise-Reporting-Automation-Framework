@@ -1,0 +1,26 @@
+# Excel temporary files
+~$*.xls*
+*.tmp
+
+# Excel outputs
+outputs/
+exports/
+
+# Workbook binaries
+*.xlsb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Cache
+__pycache__/
+
+# Environment files
+.env
