@@ -1,80 +1,50 @@
 # Enterprise Reporting Automation Framework
 
-Configurable reporting automation framework for orchestrating recurring analytics workflows, KPI processing pipelines, and automated report generation using Excel VBA.
+Configurable reporting automation framework for orchestrating recurring KPI workflows, workbook processing, and automated report generation using Excel VBA.
 
-This project focuses on reducing manual operational reporting effort through structured automation, reusable workflow components, and standardised reporting infrastructure.
+This project focuses on reducing repetitive manual reporting effort through reusable automation components and structured workflow orchestration.
 
 ---
 
 ## Overview
 
-The framework automates the ingestion, transformation, validation, and distribution of recurring KPI reporting workflows across multiple reporting streams and dashboard templates.
+The framework automates recurring reporting workflows including:
 
-Core functionality includes:
+- Workbook processing
+- KPI data population
+- Dynamic worksheet mapping
+- Reporting refresh workflows
+- Automated PDF generation
+- Report export handling
+- Standardised reporting pipelines
 
-- Automated workbook processing
-- KPI data population pipelines
-- Dynamic template handling
-- Scheduled reporting workflows
-- PDF report generation
-- Archive and output management
-- Configurable reporting mappings
-- Standardised reporting orchestration
+The project is structured as a reusable automation framework rather than a single-purpose reporting script.
 
 ---
 
 ## Engineering Focus
 
-This project was designed with emphasis on:
+Key engineering areas include:
 
 - Workflow orchestration
-- Automation architecture
+- VBA automation architecture
+- Dynamic workbook handling
 - Reusable reporting components
-- Operational analytics infrastructure
-- Data consistency and validation
-- Reduction of repetitive manual processes
-- Scalable reporting pipeline design
-
----
-
-## Business Impact
-
-The framework significantly reduced repetitive manual reporting effort by automating recurring KPI reporting workflows and standardising report generation processes.
-
-The automation system supports:
-
-- Multi-template reporting workflows
-- Automated reporting refresh pipelines
-- Structured KPI processing
-- Export and archive automation
-- Reporting consistency and validation
+- Structured processing pipelines
+- Error reduction through standardisation
+- Scalable reporting workflow design
 
 ---
 
 ## Key Features
 
-- Automated ingestion of structured reporting datasets
-- Dynamic row and column mapping logic
+- Automated workbook ingestion
+- Dynamic row and column mapping
 - Multi-template reporting support
-- Automated workbook refresh workflows
-- Configurable KPI processing pipelines
+- Automated worksheet refresh handling
 - PDF export automation
-- Archive generation and output handling
-- Error reduction through standardised automation logic
-
----
-
-## Example Metrics Processed
-
-Example KPI workflows include:
-
-- Revenue metrics
-- Cost metrics
-- Conversion metrics
-- Customer acquisition metrics
-- Performance efficiency metrics
-- Order and transaction metrics
-- Aggregated reporting summaries
+- Configurable reporting workflows
+- Standardised KPI processing logic
 
 ---
 
@@ -82,34 +52,16 @@ Example KPI workflows include:
 
 - Excel VBA
 - Power Query
-- Excel-based reporting systems
-- Structured spreadsheet data pipelines
-- Automated file handling workflows
-
----
-
-## Typical Workflow
-
-1. Load structured reporting datasets
-2. Execute automated processing workflows
-3. Populate reporting templates dynamically
-4. Refresh calculations and reporting views
-5. Generate export outputs
-6. Archive reporting artifacts
+- Excel automation workflows
+- Structured reporting pipelines
 
 ---
 
 ## Repository Structure
 
 ```text
-enterprise-reporting-automation-framework/
+Enterprise-Reporting-Automation-Framework/
 │
 ├── reporting_modules/
 ├── workflow_controllers/
-├── template_handlers/
-├── export_pipeline/
-├── archive_management/
-├── configuration/
-├── sample_data/
-├── screenshots/
-└── documentation/
+└── README.md
