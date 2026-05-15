@@ -63,5 +63,12 @@ Key engineering areas include:
 Enterprise-Reporting-Automation-Framework/
 │
 ├── reporting_modules/
+│   ├── reporting_workflow.bas
+│   ├── multi_stream_reporting.bas
+│   └── period_lookup.bas
+│
 ├── workflow_controllers/
+│   └── run_all_workflows.bas
+│
+├── .gitignore
 └── README.md
