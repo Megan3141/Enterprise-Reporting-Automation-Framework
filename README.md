@@ -111,4 +111,5 @@ enterprise-reporting-automation-framework/
 ├── archive_management/
 ├── configuration/
 ├── sample_data/
+├── screenshots/
 └── documentation/
