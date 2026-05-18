@@ -1,4 +1,4 @@
-# Enterprise Reporting Automation Framework
+# Reporting Automation Framework
 
 Configurable reporting automation framework for orchestrating recurring KPI workflows, workbook processing, and automated report generation using Excel VBA.
 
